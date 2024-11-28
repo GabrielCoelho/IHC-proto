@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Election App - Vote</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Oreon's Election</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="candidates.html">Candidates</a></li>
+          <li><a href="vote.html">Vote</a></li>
+          <li><a href="results.html">Results</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Vote</h2>
+      <form action="submit_vote.html" method="post">
+        <label for="candidate">Choose a candidate:</label>
+        <select id="candidate" name="candidate" required>
+          <option value="candidate1">Adamastor Finch</option>
+          <option value="candidate2">Lois Lui</option>
+          <option value="candidate3">Valentina Vieira</option>
+        </select>
+        <button type="submit">Submit Vote</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024 Oreon Condo <br />
+        Avenue Dalbretch, 2800 - Weschesters Ville, Oklahoma
+      </p>
+    </footer>
+  </body>
+</html>
